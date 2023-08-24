@@ -1,5 +1,5 @@
 
-from triangle import triangle_type
+from src.triangle import triangle_type
 
 def test_equilateral_triangle():
     assert triangle_type(3, 3, 3) == "Equilateral"
